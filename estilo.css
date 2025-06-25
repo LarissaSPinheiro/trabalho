@@ -1,0 +1,61 @@
+/* 1. Cor de fundo da página */
+body {background-color: rgb(228, 230, 231)
+    
+    }
+
+/* 2. Personalização do título */
+h1{
+    color: darkorchid;
+    text-align: center;
+}
+
+/* 3. Alteração do tamanho da fonte, alinhado conteúdo e alterada fonte */
+p{
+    font-size: 20px;
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* 4. Espaçamento entre linhas */
+li{
+    margin-bottom: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* 5. Personalização da imagem, deixando as bordas arredondadas e redimencionando a imagem*/
+#atividade{
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+    border: 2px solid #ccc;  
+}
+
+/* 6. Estilização da tabela*/
+table{
+    width: 400px;
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    font-size: 12pt;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+th {
+    background-color: darkgray;
+    color: black;
+    font-size: 18px;
+}
+
+.imagem {
+   width: 300px;
+    height: 220px;    
+}
+
+/* 7. Muda a cor do link quando o mousse é passado em cima */
+.interesse:hover{
+    color: red;
+}
