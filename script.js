@@ -1,7 +1,7 @@
 const botao = document.querySelector("#exibirmensagem");
 const mensagem = document.getElementById("mensagem");
 
-// ocula a mensagem inicialmente via JS
+// oculta a mensagem inicialmente via JS
 mensagem.style.display = "none";
 
 // Ao clicar, alterna entre mostrar e ocultar
